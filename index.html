@@ -174,7 +174,7 @@
 
   .hero-bg {
     position: absolute; inset: 0;
-    background-image: url('assets/cover.jpg');
+    background-image: url('cover.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0.35;
@@ -838,6 +838,7 @@
 </head>
 <body>
 
+<!-- ─── NAVIGATION ─── -->
 <nav id="mainNav">
   <div class="nav-inner">
     <a href="#" class="nav-logo">Tangkwa</a>
@@ -873,6 +874,7 @@
   </div>
 </nav>
 
+<!-- Mobile Menu -->
 <div class="mobile-menu" id="mobileMenu">
   <a href="#about" onclick="closeMobile()">About</a>
   <a href="#experience" onclick="closeMobile()">Experience</a>
@@ -889,6 +891,7 @@
   <a href="#contact" onclick="closeMobile()">Contact</a>
 </div>
 
+<!-- ─── HERO ─── -->
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-overlay"></div>
@@ -899,16 +902,17 @@
     </h1>
     <p class="hero-subtitle">Bachelor of Architecture · Kasetsart University · Bangkok, Thailand</p>
     <div class="hero-ctas">
-      <a href="assets/portfolio.pdf" download class="btn-primary">
+      <a href="portfolio.pdf" download class="btn-primary">
         ↓ <span>Download Portfolio (PDF)</span>
       </a>
-      <a href="assets/transcript.jpg" download class="btn-outline">
+      <a href="transcript.jpg" download class="btn-outline">
         ↓ <span>Download Transcript</span>
       </a>
     </div>
   </div>
 </section>
 
+<!-- ─── ABOUT ─── -->
 <section id="about">
   <div class="container">
     <div class="about-grid reveal">
@@ -953,6 +957,7 @@
   </div>
 </section>
 
+<!-- ─── EXPERIENCE ─── -->
 <section id="experience">
   <div class="container">
     <p class="section-label">02 / Experience</p>
@@ -1006,6 +1011,7 @@
   </div>
 </section>
 
+<!-- ─── SKILLS ─── -->
 <section id="skills">
   <div class="container">
     <p class="section-label">03 / Skills</p>
@@ -1042,6 +1048,7 @@
   </div>
 </section>
 
+<!-- ─── EDUCATION ─── -->
 <section id="education">
   <div class="container">
     <p class="section-label">04 / Education</p>
@@ -1059,8 +1066,8 @@
 
       <div>
         <p class="section-label" style="margin-bottom:0.8rem;">Academic Transcript</p>
-        <div class="transcript-wrapper" onclick="openModal('assets/transcript.jpg')">
-          <img src="assets/transcript.jpg" alt="Academic Transcript" loading="lazy">
+        <div class="transcript-wrapper" onclick="openModal('transcript.jpg')">
+          <img src="transcript.jpg" alt="Academic Transcript" loading="lazy">
           <div class="transcript-overlay">
             <span>View Full Size</span>
           </div>
@@ -1070,6 +1077,7 @@
   </div>
 </section>
 
+<!-- ─── PROJECTS SECTION HEADER ─── -->
 <div style="background:var(--bg-dark);padding:4rem 0 3rem;border-bottom:1px solid rgba(255,255,255,0.08);">
   <div class="container">
     <p class="section-label" style="color:var(--accent-light);">05 / Selected Works</p>
@@ -1077,6 +1085,7 @@
   </div>
 </div>
 
+<!-- ─── PROJECT 01: HSL ─── -->
 <div class="project-section" id="proj-hsl">
   <div class="container">
     <div class="project-header reveal">
@@ -1105,15 +1114,16 @@
     </div>
 
     <div class="gallery-masonry masonry-a reveal">
-      <div class="gallery-img"><img src="assets/hsl_1.jpg" alt="Home Spa Ladkrabang 1" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/hsl_2.jpg" alt="Home Spa Ladkrabang 2" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/hsl_3.jpg" alt="Home Spa Ladkrabang 3" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/hsl_4.jpg" alt="Home Spa Ladkrabang 4" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/hsl_5.jpg" alt="Home Spa Ladkrabang 5" loading="lazy"></div>
+      <div class="gallery-img"><img src="hsl_1.jpg" alt="Home Spa Ladkrabang 1" loading="lazy"></div>
+      <div class="gallery-img"><img src="hsl_2.jpg" alt="Home Spa Ladkrabang 2" loading="lazy"></div>
+      <div class="gallery-img"><img src="hsl_3.jpg" alt="Home Spa Ladkrabang 3" loading="lazy"></div>
+      <div class="gallery-img"><img src="hsl_4.jpg" alt="Home Spa Ladkrabang 4" loading="lazy"></div>
+      <div class="gallery-img"><img src="hsl_5.jpg" alt="Home Spa Ladkrabang 5" loading="lazy"></div>
     </div>
   </div>
 </div>
 
+<!-- ─── PROJECT 02: PCC ─── -->
 <div class="project-section" id="proj-pcc">
   <div class="container">
     <div class="project-header reveal">
@@ -1141,6 +1151,7 @@
       </div>
     </div>
 
+    <!-- CONCEPT 1: Philip Huang (Fashion) -->
     <div class="concept-block reveal">
       <div style="display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:end;margin-bottom:1.5rem;">
         <div class="concept-number">Ⅰ</div>
@@ -1151,14 +1162,15 @@
       </div>
       <p class="concept-text">A design approach that blends the raw clarity of Brutalism with the intimacy of craftsmanship. It emphasises fundamental materials — concrete, steel, and glass — revealing imperfection and the passage of time. Spaces are simple, functional, and alive, evolving through use. It prioritises structure, clarity, and material honesty over decoration, with nature introduced subtly. Light, texture, and textiles shape atmosphere and spatial experience. Overall, it is architecture that is honest, minimal, yet profound — embracing imperfection, aging, and seeing them as the true beauty of living.</p>
       <div class="gallery-masonry masonry-a">
-        <div class="gallery-img"><img src="assets/prachoomchang_concept1_1.jpg" alt="PCC Concept 1 - Image 1" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept1_2.jpg" alt="PCC Concept 1 - Image 2" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept1_3.jpg" alt="PCC Concept 1 - Image 3" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept1_4.jpg" alt="PCC Concept 1 - Image 4" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept1_5.jpg" alt="PCC Concept 1 - Image 5" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept1_1.jpg" alt="PCC Concept 1 - Image 1" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept1_2.jpg" alt="PCC Concept 1 - Image 2" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept1_3.jpg" alt="PCC Concept 1 - Image 3" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept1_4.jpg" alt="PCC Concept 1 - Image 4" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept1_5.jpg" alt="PCC Concept 1 - Image 5" loading="lazy"></div>
       </div>
     </div>
 
+    <!-- CONCEPT 2: PARIBAWGA (Furniture) -->
     <div class="concept-block reveal">
       <div style="display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:end;margin-bottom:1.5rem;">
         <div class="concept-number">Ⅱ</div>
@@ -1169,14 +1181,15 @@
       </div>
       <p class="concept-text">The project is grounded in the idea of 'preserve and reveal,' where the existing structure, walls, and traces of time are kept and expressed as they are. The original building becomes a living backdrop, allowing materials and craftsmanship to stand out naturally. The space is reduced to only what is essential, allowing the wooden furniture to take the main role. Showroom, private kitchen, and office are seamlessly connected, creating a fluid spatial experience that feels calm, minimal, yet rich in subtle details.</p>
       <div class="gallery-masonry masonry-b">
-        <div class="gallery-img"><img src="assets/prachoomchang_concept2_1.jpg" alt="PCC Concept 2 - Image 1" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept2_2.jpg" alt="PCC Concept 2 - Image 2" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept2_3.jpg" alt="PCC Concept 2 - Image 3" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept2_4.jpg" alt="PCC Concept 2 - Image 4" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept2_5.jpg" alt="PCC Concept 2 - Image 5" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept2_1.jpg" alt="PCC Concept 2 - Image 1" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept2_2.jpg" alt="PCC Concept 2 - Image 2" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept2_3.jpg" alt="PCC Concept 2 - Image 3" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept2_4.jpg" alt="PCC Concept 2 - Image 4" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept2_5.jpg" alt="PCC Concept 2 - Image 5" loading="lazy"></div>
       </div>
     </div>
 
+    <!-- CONCEPT 3: Channatip Studio (Art) -->
     <div class="concept-block reveal">
       <div style="display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:end;margin-bottom:1.5rem;">
         <div class="concept-number">Ⅲ</div>
@@ -1187,16 +1200,17 @@
       </div>
       <p class="concept-text">A studio defined by material honesty, exposed yet calm and composed. The programme is distilled to its essentials, allowing art to emerge freely without obstruction. Natural light and passive ventilation are embedded as architectural drivers, with light moving through the space to reveal surface, dust, pigment, and time. This is not a space designed for perfection, but one that embraces imperfection — including stains, traces, and transformation — as part of its aesthetic. It is a studio that is bare but not empty, minimal yet profound, a space where art breathes through architecture.</p>
       <div class="gallery-masonry masonry-a">
-        <div class="gallery-img"><img src="assets/prachoomchang_concept3_1.jpg" alt="PCC Concept 3 - Image 1" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept3_2.jpg" alt="PCC Concept 3 - Image 2" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept3_3.jpg" alt="PCC Concept 3 - Image 3" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept3_4.jpg" alt="PCC Concept 3 - Image 4" loading="lazy"></div>
-        <div class="gallery-img"><img src="assets/prachoomchang_concept3_5.jpg" alt="PCC Concept 3 - Image 5" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept3_1.jpg" alt="PCC Concept 3 - Image 1" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept3_2.jpg" alt="PCC Concept 3 - Image 2" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept3_3.jpg" alt="PCC Concept 3 - Image 3" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept3_4.jpg" alt="PCC Concept 3 - Image 4" loading="lazy"></div>
+        <div class="gallery-img"><img src="prachoomchang_concept3_5.jpg" alt="PCC Concept 3 - Image 5" loading="lazy"></div>
       </div>
     </div>
   </div>
 </div>
 
+<!-- ─── PROJECT 03: THESIS ─── -->
 <div class="project-section" id="proj-thesis">
   <div class="container">
     <div class="project-header reveal">
@@ -1224,15 +1238,16 @@
       </div>
     </div>
     <div class="gallery-masonry masonry-b reveal">
-      <div class="gallery-img"><img src="assets/thesis_1.jpg" alt="Suphan Buri Folk Music Center 1" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/thesis_2.jpg" alt="Suphan Buri Folk Music Center 2" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/thesis_3.jpg" alt="Suphan Buri Folk Music Center 3" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/thesis_4.jpg" alt="Suphan Buri Folk Music Center 4" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/thesis_5.jpg" alt="Suphan Buri Folk Music Center 5" loading="lazy"></div>
+      <div class="gallery-img"><img src="thesis_1.jpg" alt="Suphan Buri Folk Music Center 1" loading="lazy"></div>
+      <div class="gallery-img"><img src="thesis_2.jpg" alt="Suphan Buri Folk Music Center 2" loading="lazy"></div>
+      <div class="gallery-img"><img src="thesis_3.jpg" alt="Suphan Buri Folk Music Center 3" loading="lazy"></div>
+      <div class="gallery-img"><img src="thesis_4.jpg" alt="Suphan Buri Folk Music Center 4" loading="lazy"></div>
+      <div class="gallery-img"><img src="thesis_5.jpg" alt="Suphan Buri Folk Music Center 5" loading="lazy"></div>
     </div>
   </div>
 </div>
 
+<!-- ─── PROJECT 04: HOTEL ─── -->
 <div class="project-section" id="proj-hotel">
   <div class="container">
     <div class="project-header reveal">
@@ -1260,15 +1275,16 @@
       </div>
     </div>
     <div class="gallery-masonry masonry-a reveal">
-      <div class="gallery-img"><img src="assets/hotel_1.jpg" alt="Yodpiman Hotel 1" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/hotel_2.jpg" alt="Yodpiman Hotel 2" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/hotel_3.jpg" alt="Yodpiman Hotel 3" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/hotel_4.jpg" alt="Yodpiman Hotel 4" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/hotel_5.jpg" alt="Yodpiman Hotel 5" loading="lazy"></div>
+      <div class="gallery-img"><img src="hotel_1.jpg" alt="Yodpiman Hotel 1" loading="lazy"></div>
+      <div class="gallery-img"><img src="hotel_2.jpg" alt="Yodpiman Hotel 2" loading="lazy"></div>
+      <div class="gallery-img"><img src="hotel_3.jpg" alt="Yodpiman Hotel 3" loading="lazy"></div>
+      <div class="gallery-img"><img src="hotel_4.jpg" alt="Yodpiman Hotel 4" loading="lazy"></div>
+      <div class="gallery-img"><img src="hotel_5.jpg" alt="Yodpiman Hotel 5" loading="lazy"></div>
     </div>
   </div>
 </div>
 
+<!-- ─── PROJECT 05: SKYTRAIN ─── -->
 <div class="project-section" id="proj-skytrain">
   <div class="container">
     <div class="project-header reveal">
@@ -1296,15 +1312,16 @@
       </div>
     </div>
     <div class="gallery-masonry masonry-b reveal">
-      <div class="gallery-img"><img src="assets/skytrain_1.jpg" alt="Bali Hai Station 1" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/skytrain_2.jpg" alt="Bali Hai Station 2" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/skytrain_3.jpg" alt="Bali Hai Station 3" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/skytrain_4.jpg" alt="Bali Hai Station 4" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/skytrain_5.jpg" alt="Bali Hai Station 5" loading="lazy"></div>
+      <div class="gallery-img"><img src="skytrain_1.jpg" alt="Bali Hai Station 1" loading="lazy"></div>
+      <div class="gallery-img"><img src="skytrain_2.jpg" alt="Bali Hai Station 2" loading="lazy"></div>
+      <div class="gallery-img"><img src="skytrain_3.jpg" alt="Bali Hai Station 3" loading="lazy"></div>
+      <div class="gallery-img"><img src="skytrain_4.jpg" alt="Bali Hai Station 4" loading="lazy"></div>
+      <div class="gallery-img"><img src="skytrain_5.jpg" alt="Bali Hai Station 5" loading="lazy"></div>
     </div>
   </div>
 </div>
 
+<!-- ─── PROJECT 06: BDW ─── -->
 <div class="project-section" id="proj-bdw">
   <div class="container">
     <div class="project-header reveal">
@@ -1328,15 +1345,16 @@
       </div>
     </div>
     <div class="gallery-masonry masonry-a reveal">
-      <div class="gallery-img"><img src="assets/bdw_1.jpg" alt="Bangkok Design Week 2024 - 1" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/bdw_2.jpg" alt="Bangkok Design Week 2024 - 2" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/bdw_3.jpg" alt="Bangkok Design Week 2024 - 3" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/bdw_4.jpg" alt="Bangkok Design Week 2024 - 4" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/bdw_5.jpg" alt="Bangkok Design Week 2024 - 5" loading="lazy"></div>
+      <div class="gallery-img"><img src="bdw_1.jpg" alt="Bangkok Design Week 2024 - 1" loading="lazy"></div>
+      <div class="gallery-img"><img src="bdw_2.jpg" alt="Bangkok Design Week 2024 - 2" loading="lazy"></div>
+      <div class="gallery-img"><img src="bdw_3.jpg" alt="Bangkok Design Week 2024 - 3" loading="lazy"></div>
+      <div class="gallery-img"><img src="bdw_4.jpg" alt="Bangkok Design Week 2024 - 4" loading="lazy"></div>
+      <div class="gallery-img"><img src="bdw_5.jpg" alt="Bangkok Design Week 2024 - 5" loading="lazy"></div>
     </div>
   </div>
 </div>
 
+<!-- ─── PROJECT 07: STRUCTURAL JOURNEY ─── -->
 <div class="project-section" id="proj-struct">
   <div class="container">
     <div class="project-header reveal">
@@ -1364,15 +1382,16 @@
       </div>
     </div>
     <div class="gallery-masonry masonry-b reveal">
-      <div class="gallery-img"><img src="assets/structural_1.jpg" alt="Structural Journey 2023 - 1" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/structural_2.jpg" alt="Structural Journey 2023 - 2" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/structural_3.jpg" alt="Structural Journey 2023 - 3" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/structural_4.jpg" alt="Structural Journey 2023 - 4" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/structural_5.jpg" alt="Structural Journey 2023 - 5" loading="lazy"></div>
+      <div class="gallery-img"><img src="structural_1.jpg" alt="Structural Journey 2023 - 1" loading="lazy"></div>
+      <div class="gallery-img"><img src="structural_2.jpg" alt="Structural Journey 2023 - 2" loading="lazy"></div>
+      <div class="gallery-img"><img src="structural_3.jpg" alt="Structural Journey 2023 - 3" loading="lazy"></div>
+      <div class="gallery-img"><img src="structural_4.jpg" alt="Structural Journey 2023 - 4" loading="lazy"></div>
+      <div class="gallery-img"><img src="structural_5.jpg" alt="Structural Journey 2023 - 5" loading="lazy"></div>
     </div>
   </div>
 </div>
 
+<!-- ─── PROJECT 08: INTERNATIONAL WORKSHOP ─── -->
 <div class="project-section" id="proj-intl">
   <div class="container">
     <div class="project-header reveal">
@@ -1400,15 +1419,16 @@
       </div>
     </div>
     <div class="gallery-masonry masonry-a reveal">
-      <div class="gallery-img"><img src="assets/intlworkshop_1.jpg" alt="International Workshop 2023 - 1" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/intlworkshop_2.jpg" alt="International Workshop 2023 - 2" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/intlworkshop_3.jpg" alt="International Workshop 2023 - 3" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/intlworkshop_4.jpg" alt="International Workshop 2023 - 4" loading="lazy"></div>
-      <div class="gallery-img"><img src="assets/intlworkshop_5.jpg" alt="International Workshop 2023 - 5" loading="lazy"></div>
+      <div class="gallery-img"><img src="intlworkshop_1.jpg" alt="International Workshop 2023 - 1" loading="lazy"></div>
+      <div class="gallery-img"><img src="intlworkshop_2.jpg" alt="International Workshop 2023 - 2" loading="lazy"></div>
+      <div class="gallery-img"><img src="intlworkshop_3.jpg" alt="International Workshop 2023 - 3" loading="lazy"></div>
+      <div class="gallery-img"><img src="intlworkshop_4.jpg" alt="International Workshop 2023 - 4" loading="lazy"></div>
+      <div class="gallery-img"><img src="intlworkshop_5.jpg" alt="International Workshop 2023 - 5" loading="lazy"></div>
     </div>
   </div>
 </div>
 
+<!-- ─── CONTACT / FOOTER ─── -->
 <footer id="contact">
   <div class="footer-inner">
     <div class="footer-grid">
@@ -1434,7 +1454,7 @@
           <li><a href="#skills">Skills</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#proj-hsl">Projects</a></li>
-          <li><a href="assets/portfolio.pdf" download>Download Portfolio</a></li>
+          <li><a href="portfolio.pdf" download>Download Portfolio</a></li>
         </ul>
       </div>
     </div>
@@ -1446,6 +1466,7 @@
   </div>
 </footer>
 
+<!-- ─── LIGHTBOX MODAL ─── -->
 <div class="modal-overlay" id="lightboxModal" onclick="closeModalOnBg(event)">
   <div class="modal-content">
     <button class="modal-close" onclick="closeModal()">× Close</button>
@@ -1453,6 +1474,7 @@
   </div>
 </div>
 
+<!-- ─── JAVASCRIPT ─── -->
 <script>
   // ── MOBILE MENU ──
   function toggleMobile() {
